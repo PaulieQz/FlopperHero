@@ -73,7 +73,7 @@ Use the following table to select the appropriate files and place them at the co
   </h3>
 </h2>
 
-<h4>In order to get your ESP32 into it's flashable mode, there is a specific button sequence you need to press.</h4?>
+<h4>In order to get your ESP32 into it's flashable mode, there is a specific button sequence you need to press.</h4>
 
 <img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderFlopHeroRSTBOOT.png?raw=true" align="left" width="200px"/>
 With your Flipper Zero off, hold down the <code>BOOT</code> button. While holding down the <code>BOOT</code> button, plug the ESP32 into your computer. While still holding the <code>BOOT</code> button, press then release the <code>RESET</code> button. Then you can let go of your <code>BOOT</code> button.
