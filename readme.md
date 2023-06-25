@@ -115,13 +115,13 @@ Now that everything has been completed, here's a quick PoC on how to use it.
 Turn on your Flipper with the Marauder flashed ESP32 installed. Navigate to: Apps(or Applications) and go to WiFi (or GPIO depending on firmware) and then select [ESP32] Marauder.
 
 
-- Navigate to <code>scan ap></code> and press <code>SELECT</code> to start scanning for nearby networks. Your LED light on the ESP32 should be blue.
+[*] Navigate to <code>scan ap></code> and press <code>SELECT</code> to start scanning for nearby networks. Your LED light on the ESP32 should be blue.
 <img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderScanAP.gif?raw=true" align="center"/>
-- After a few seconds or after you've seen your target AP show up, press <code>BACK</code> and go to <code>list ap></code> go through the list and locate YOUR AP and note it's number. Click the <code>BACK</code> button and navigate to <code>select ap></code> and enter in the number of YOUR AP that you noted previously. Press <code>BACK</code> twice to go back to the main menu
+[*] After a few seconds or after you've seen your target AP show up, press <code>BACK</code> and go to <code>list ap></code> go through the list and locate YOUR AP and note it's number. Click the <code>BACK</code> button and navigate to <code>select ap></code> and enter in the number of YOUR AP that you noted previously. Press <code>BACK</code> twice to go back to the main menu
 <img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderListAndSelectAP.gif?raw=true" align="center"/>
-- Now scroll to the <code>Sniff</code> item and press <code>RIGHT</code> until it says <code>sniff pmkid></code> then press <code>SELECT</code> and choose the option <code>Active (Forced Deauth)</code>. The attack will begin and you're done after it tells you that you've captured EAPOL packets
+[*] Now scroll to the <code>Sniff</code> item and press <code>RIGHT</code> until it says <code>sniff pmkid></code> then press <code>SELECT</code> and choose the option <code>Active (Forced Deauth)</code>. The attack will begin and you're done after it tells you that you've captured EAPOL packets
 <img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderSniffPMKID.gif?raw=true" align="center"/>
-- Connect your Flipper to your computer and launch qFlipper. You'll be able to access your SD card and can grab your .pcap files to review
+[*] Connect your Flipper to your computer and launch qFlipper. You'll be able to access your SD card and can grab your .pcap files to review
 <img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/sniffed_pcaps.png?raw=true" align="center"/>
 
 -----
