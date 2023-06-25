@@ -100,9 +100,9 @@ Select to upload the the appropriate files based off of the table provided here 
 <p>You may need to <a href="https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip">download drivers for the ESP32</a> In order to get the ESP32 recognizable on your computer</p>
 
 <br><br>
-<h2 align="center">Confirm Marauder is now running:</h2>
-
-<center><img src="https://raw.githubusercontent.com/PaulieQz/FlopperHero/main/assets/marauder/marauderBootConfirm.gif" width="640px"/></center><br>
+<h2 align="center">Confirm Marauder is now running:
+<br>
+<img src="https://raw.githubusercontent.com/PaulieQz/FlopperHero/main/assets/marauder/marauderBootConfirm.gif" width="640px"/></h2><br>
 You'll know that you were successful in flashing Marauder on your ESP32 when you disconnect from the computer, plug it into your Flipper Zero and turn it on, you'll see the multicolored LED cycle on boot. It's time to get going with your build and you can now run the [ESP32] Marauder FAP bundled with most Flipper custom firmwares.
 <br>
 
