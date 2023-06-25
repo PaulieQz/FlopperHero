@@ -48,7 +48,7 @@ Also, perhaps a bigger height, with set width (yes distrotion issues ik) so it f
 
 - <ins><b>Computer and Internet:</b></ins> You'll need a 'puter with internet in order to access the Spacehuhn website, view this article, download the necessary files, view the <a href="https://github.com/PaulieQz/FlopperHero/blob/main/table.md">firmware table</a>, etc.
 
-<br>
+<br><br>
 Use the following table to select the appropriate files and place them at the corresponding address
     - Enter the address shown as the blue text in the appropriate space and add the file linked to that blue text  
 
