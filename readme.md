@@ -48,7 +48,7 @@ Also, perhaps a bigger height, with set width (yes distrotion issues ik) so it f
 
 - <ins><b>Computer and Internet:</b></ins> You'll need a 'puter with internet in order to access the Spacehuhn website, view this article, download the necessary files, view the <a href="https://github.com/PaulieQz/FlopperHero/blob/main/table.md">firmware table</a>, etc.
 
-<br><br>
+<br>
 Use the following table to select the appropriate files and place them at the corresponding address
     - Enter the address shown as the blue text in the appropriate space and add the file linked to that blue text  
 
@@ -72,5 +72,34 @@ Use the following table to select the appropriate files and place them at the co
 | LDDB/NodeMCU/Wemos | `_lddb.bin` |
 | Dev Board Pro | `_marauder_dev_board_pro.bin` |
 <br>
+
+-----
+<br>
+<h2 align="center">Spacehuhn Web Updater:
+  <h3 align="center">Navigate to the Spacehuhn Web updater <a href="https://esp.huhn.me/">here</a>
+  </h3>
+</h2>
+
+<h4>In order to get your ESP32 into it's flashable mode, there is a specific button sequence you need to press.</h4?>
+
+<img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderFlopHeroRSTBOOT.png?raw=true" align="left" width="200px"/>
+With your Flipper Zero off, hold down the <code>BOOT</code> button. While holding down the <code>BOOT</code> button, plug the ESP32 into your computer. While still holding the <code>BOOT</code> button, press then release the <code>RESET</code> button. Then you can let go of your <code>BOOT</code> button.
+
+<br clear="left"/>
+
+<br>
+
+<img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderSpacehuhnWebUpdater.png?raw=true" align="left" width="200px"/>
+Now that you should be connected in firmware flashing mode, click <code>CONNECT</code> on the Spacehuhn Web Updater (if you did this right you should have the ability to select your Marauder files).
+
+
+<br clear="left"/>
+
+<br>
+
+<img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderSpacehuhnFirmware.png?raw=true" align="left" width="200px"/>
+Select to upload the the appropriate files based off of the table provided here or on justcallmekoko's readme. After selecting the files, click on <code>PROGRAM</code>. You're ESP32 should soon reboot and give you a new greating when receiving power.
+
+<br clear="left"/>
 
 -----
