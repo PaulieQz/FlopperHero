@@ -5,7 +5,7 @@
 </p>
 
 <h2 align="center">
-  <a href="https://wiki.subhackers.org">Website</a> | <a href="https://github.com/PaulieQz/FlopperHero#About">Intro</a> | <a href="https://github.com/PaulieQz/FlopperHero#Install">Install</a> | <a href="https://discord.gg/KwS39vnjG9">Discord</a> | <a href="https://github.com/PaulieQz/FlopperHero#%EF%B8%8F-support">Donate</a>
+  <a href="https://wiki.subhackers.org">Website</a> | <a href="https://github.com/PaulieQz/FlopperHero#About">Intro</a> | <a href="https://discord.gg/KwS39vnjG9">Discord</a> | <a href="https://github.com/PaulieQz/FlopperHero#%EF%B8%8F-support">Donate</a>
 </h2>
 
 This is a guide to install the Marauder firmware on an ESP32 board, which includes the Official Flipper Zero WiFi Dev Board. Follow along as we provide you with instruction and a proof of concept of using with the <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/">Xtreme Flipper Firmware</a>. Why <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/">Xtreme Flipper Firmware</a>? Because that's what I decided to run on my Flipper Zero.
@@ -31,13 +31,6 @@ This is a guide to install the Marauder firmware on an ESP32 board, which includ
 <h2 align="center">Getting Started:</h2>
 
 To get started, there are a few things you are going to need in order to start sniffing pcaps:
-
-<!--
-
-This image needs to be updated!
-Also, perhaps a bigger height, with set width (yes distrotion issues ik) so it fits all our bulletpoints without issues
-
--->
 
 <img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderGettingStarted.jpg?raw=true" align="left" height="160vh"/>
 <img align="left" height="180vh" width="10" src="https://upload.wikimedia.org/wikipedia/commons/3/3d/1_120_transparent.png">
@@ -105,11 +98,65 @@ Select to upload the the appropriate files based off of the table provided here 
 <br>
 <strong>*Note if on Windows</strong>
 <p>You may need to <a href="https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip">download drivers for the ESP32</a></p> In order to get the ESP32 recognizable on your computer
-<br><br>
------
 <br>
+-----
+<br><br>
 <h2 align="center">Confirm Marauder is now running:</h2>
 
-<img src="https://raw.githubusercontent.com/PaulieQz/FlopperHero/main/assets/marauder/marauderBootConfirm.gif" align="left" width="250px"/>
+<img src="https://raw.githubusercontent.com/PaulieQz/FlopperHero/main/assets/marauder/marauderBootConfirm.gif" align="left" width="200px"/>
 You'll know that you were successful in flashing Marauder on your ESP32 when you disconnect from the computer, plug it into your Flipper Zero and turn it on, you'll see the multicolored LED cycle on boot. It's time to get going with your build and you can now run the [ESP32] Marauder FAP bundled with most Flipper custom firmwares.
+<br>
+
+-----
 <br><br>
+<h2 align="center">Proof of Concept Demo:</h2>
+
+Now that everything has been completed, here's a quick PoC on how to use it.
+
+Turn on your Flipper with the Marauder flashed ESP32 installed. Navigate to: Apps(or Applications) and go to WiFi (or GPIO depending on firmware) and then select [ESP32] Marauder.
+
+
+- Navigate to <code>scan ap></code> and press <code>SELECT</code> to start scanning for nearby networks. Your LED light on the ESP32 should be blue.
+<img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderScanAP.gif?raw=true" align="center"/>
+- After a few seconds or after you've seen your target AP show up, press <code>BACK</code> and go to <code>list ap></code> go through the list and locate YOUR AP and note it's number. Click the <code>BACK</code> button and navigate to <code>select ap></code> and enter in the number of YOUR AP that you noted previously. Press <code>BACK</code> twice to go back to the main menu
+<img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderListAndSelectAP.gif?raw=true" align="center"/>
+- Now scroll to the <code>Sniff</code> item and press <code>RIGHT</code> until it says <code>sniff pmkid></code> then press <code>SELECT</code> and choose the option <code>Active (Forced Deauth)</code>. The attack will begin and you're done after it tells you that you've captured EAPOL packets
+<img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/marauderSniffPMKID.gif?raw=true" align="center"/>
+- Connect your Flipper to your computer and launch qFlipper. You'll be able to access your SD card and can grab your .pcap files to review
+<img src="https://github.com/PaulieQz/FlopperHero/blob/main/assets/marauder/sniffed_pcaps.png?raw=true" align="center"/>
+
+-----
+<br>
+<h2 align="center">List of changes:</h2>
+
+Note: This repo is always updated with OFW & Unleashed. No need to mention all those here. We will only mention **our** changes that we can actually be credited for.
+
+```txt
+[Added]
+
+- Initial Release
+```
+```txt
+[Updated]
+
+- Initial Release
+```
+```txt
+[Fixed]
+
+- Initial Release
+```
+```txt
+[REMOVED]
+
+- Initial Release
+```
+
+-----
+
+## ❤️ Support
+If you like what you're seeing, **please consider donating to me**.
+
+- **BitCoin**: `3GjFmCc2sFL7TAQFX4kBuQNsEBrASYo2yq`
+
+**Thanks for all your support <3**
