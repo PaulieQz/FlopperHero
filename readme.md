@@ -14,11 +14,11 @@ This is a guide to install the Marauder firmware on an ESP32 board, which includ
 <br>
 <h2 align="center">About</h2>
 
-Title: ESP32 Marauder Firmware Flash Walkthrough
-Rev: 1.0
-Author: PaulieQ
+<p>Title: ESP32 Marauder Firmware Flash Walkthrough</p>
+<p>Rev: 1.0</p>
+<p>Author: PaulieQ</p>
 
-Thanks to: <a href="https://discord.gg/KwS39vnjG9">CSH</a>, <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/">Xtreme</a>, <a href="https://github.com/flipperdevices/flipperzero-firmware">Flipper Zero</a>, <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoz</a>, <a href="https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware">justcallmekoko</a>, and <a href="https://esp.huhn.me/">Spacehuhn</a>
+<p>Thanks to: <a href="https://discord.gg/KwS39vnjG9">CSH</a>, <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/">Xtreme</a>, <a href="https://github.com/flipperdevices/flipperzero-firmware">Flipper Zero</a>, <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoz</a>, <a href="https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware">justcallmekoko</a>, and <a href="https://esp.huhn.me/">Spacehuhn</a></p>
 <br><br>
 <h4>Welcome to an everything you need to know to get Marauder up and running on an ESP32/FZ WiFi Dev Board.</h4>
 <p>If you havent already set up custom firmware on your Flipper Zero, go to <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/">Xtreme Flipper Firmware</a> before starting to flash your Flipper Zero with custom firmware to also get the [ESP32] Marauder FAP before even looking to flash Marauder on your WiFi dev board.</p>
