@@ -17,6 +17,7 @@ This is a guide to install the Marauder firmware on an ESP32 board, which includ
 <p>Title: ESP32 Marauder Firmware Flash Walkthrough</p>
 <p>Rev: 1.0</p>
 <p>Author: PaulieQ</p>
+<p>Special Thanks to Xtreme as I pretty much stole their template for this write up</p>
 
 <p>Thanks to: <a href="https://discord.gg/KwS39vnjG9">CSH</a>, <a href="https://github.com/ClaraCrazy/Flipper-Xtreme/">Xtreme</a>, <a href="https://github.com/flipperdevices/flipperzero-firmware">Flipper Zero</a>, <a href="https://github.com/UberGuidoZ/Flipper">UberGuidoz</a>, <a href="https://github.com/justcallmekoko/ESP32Marauder/wiki/update-firmware">justcallmekoko</a>, and <a href="https://esp.huhn.me/">Spacehuhn</a></p>
 <br><br>
